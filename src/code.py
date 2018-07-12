@@ -107,8 +107,10 @@ def validate_period(line_item):
 
 def validate_plan(line_item):
     plan = line_item['plan']
+    
     return plan.get('active', False)
 
 
 def validate_line(line_item):
     return validate_period(line_item) and validate_plan(line_item)
+
