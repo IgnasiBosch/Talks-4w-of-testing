@@ -1,8 +1,8 @@
-# 4W OF TESTING
+# Unit and integration testing
 
 ## Examples from tech talk
 
-https://ignasibosch.com/talks/4w-of-testing
+https://ignasibosch.com/talks/unit-and-integration-testing
 
 ## Example 1
 * Branch Example-1 
