@@ -40,18 +40,9 @@ class TestCase(unittest.TestCase):
 
     def test_validate_line__false_period_should_return_false_and_no_call_validate_plan(self):
         self.mocked_validate_period.return_value = False
-        self.mocked_validate_plan.return_value = True
 
         result = validate_line(self.data)
 
         self.assertFalse(result)
         self.mocked_validate_plan.assert_not_called()
-
-    def test_validate_line__false_plan_should_return_false(self):
-        self.mocked_validate_period.return_value = True
-        self.mocked_validate_plan.return_value = False
-
-        result = validate_line(self.data)
-
-        self.assertFalse(result)
 
