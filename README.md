@@ -4,9 +4,15 @@
 
 https://ignasibosch.com/talks/unit-and-integration-testing
 
-## Example 1
+### Coverage 100% - No units
 * Branch Example-1 
 
 
-## Example 2
+### Unit tests without context & narrow integration test 
 * Branch Example-2
+
+### Unit tests & narrow integration tests apply to OOP
+* Branch Example-3
+
+### While True loop & async await
+* Branch Example-4
