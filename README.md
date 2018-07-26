@@ -13,3 +13,6 @@ https://ignasibosch.com/talks/unit-and-integration-testing
 
 ### Unit tests & narrow integration tests apply to OOP
 * Branch Example-3
+
+### While True loop & async await
+* Branch Example-4
