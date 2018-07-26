@@ -8,5 +8,8 @@ https://ignasibosch.com/talks/unit-and-integration-testing
 * Branch Example-1 
 
 
-### Units without context & narrow integration test 
+### Unit tests without context & narrow integration test 
 * Branch Example-2
+
+### Unit tests & narrow integration tests apply to OOP
+* Branch Example-3
