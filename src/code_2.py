@@ -47,7 +47,7 @@ class LineItemValidator:
             raise TypeError('Invalid item type')
 
 
-class Invoice:
+class InvoiceValidator:
 
     def __init__(self, invoice, line_item_validator):
         self._invoice = invoice

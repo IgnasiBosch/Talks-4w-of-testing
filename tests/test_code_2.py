@@ -4,7 +4,7 @@ from unittest.mock import Mock, call
 from freezegun import freeze_time
 
 from src.code_2 import SubscriptionValidator, PromotionValidator, \
-    LineItemValidator, Invoice
+    LineItemValidator, InvoiceValidator
 
 
 class SubscriptionValidatorTestCase(unittest.TestCase):
@@ -134,7 +134,7 @@ class LineItemValidatorTestCase(unittest.TestCase):
 class InvoiceTestCase(unittest.TestCase):
     def setUp(self):
         # System Under Test class
-        self.sut_cls = Invoice
+        self.sut_cls = InvoiceValidator
         self.line_item_validator = Mock()
 
     def test_is_closed__true(self):

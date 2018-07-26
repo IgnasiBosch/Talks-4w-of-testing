@@ -1,7 +1,7 @@
 import unittest
 from unittest.mock import Mock, patch, call
 
-from src.code_1 import LineItemValidator, Invoice
+from src.code_1 import LineItemValidator, InvoiceValidator
 
 
 class LineItemValidatorTestCase(unittest.TestCase):
@@ -87,7 +87,7 @@ class LineItemValidatorTestCase(unittest.TestCase):
 class InvoiceTestCase(unittest.TestCase):
     def setUp(self):
         # System Under Test class
-        self.sut_cls = Invoice
+        self.sut_cls = InvoiceValidator
 
     def test_is_closed__true(self):
         data = {

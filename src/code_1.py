@@ -19,7 +19,7 @@ class LineItemValidator:
         return plan.get('active', False)
 
 
-class Invoice:
+class InvoiceValidator:
     """Mapping of an invoice"""
 
     def __init__(self, invoice):
